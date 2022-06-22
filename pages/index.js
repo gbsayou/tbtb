@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Timeline from '../components/timeline';
 
 const menu = [
-  { name:'行程介绍', slug:'/intro'},
+  { name:'酒店介绍', slug:'/intro'},
   { name:'人员与分组', slug:'/team' },
   { name:'行前注意事项', slug:'/notice'},
   { name:'费用明细', slug:'/fee'}

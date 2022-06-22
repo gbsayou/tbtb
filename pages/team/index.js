@@ -5,14 +5,14 @@ import styles from './index.module.scss';
 const teams = [
     {
         lead: 'Jim He',
-        members: ['Chloe Chen', 'Sunny Sun', 'Mallory Cui', 'Lynn Lin', 'Ben Ge']
+        members: ['Ken Liu', 'Chloe Chen', 'Sunny Sun', 'Mallory Cui', 'Lynn Lin']
     },
     {
-        lead: 'Adri Pan',
-        members: ['Sandy Xiong', 'Gray Feng', 'Jason Zhang', 'Hugh Li', 'Denny Liang']
+        lead: 'Hugh Li',
+        members: ['Ben Ge',  'Sandy Xiong', 'Denny Liang']
     },
     {
-        lead: 'Ken Liu',
+        lead: 'Gray Feng',
         members: ['Kano Dai', 'Jay Huang', 'Andy An', 'Thomas Li', 'Thomas 家属']
     },
     {
@@ -20,8 +20,8 @@ const teams = [
         members: ['Jovins Huang', 'Alfred Liang', 'Alfred 家属', 'Vincent Wen', 'Roy Chen']
     },
     {
-        lead: 'Calla Yang',
-        members: ['Rachel Liu','Lala Zhang', 'Jomanda Zhang','Yoyo Li','Joey Cao']
+        lead: 'Joey Cao',
+        members: ['Rachel Liu', 'Lala Zhang', 'Jomanda Zhang', 'Yoyo Li', 'Calla Yang']
     }
 ]
 
