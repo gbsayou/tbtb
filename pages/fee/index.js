@@ -1,15 +1,14 @@
 
 import React from "react";
 import Layout from '../../components/layout'
-import styles from './index.module.scss';
 
 const items = [
     '大巴包车：2800',
-    '保险：10*28人= 290',
+    '保险：10*28人= 280',
     '酒店+早餐：双床房1050元/间 * 14间 = 14700',
     '晚餐：2388元/桌 * 3桌 = 7164',
-    '活动：待定',
-    '午餐：700元/桌 * 3桌 = 2100',
+    '午餐：待定',
+    '大丰门景区活动：待定'
 ]
 
 const Team = () => {
@@ -21,10 +20,10 @@ const Team = () => {
             {items.map(fee => (
                 <p key={fee}>{fee}</p>
             ))}
-            <h3>总计</h3>
+            {/* <h3>总计</h3>
             <span>27044</span>
             <h3>人均</h3>
-            <span>27044 / 28 = 965</span>
+            <span>27044 / 28 = 965</span> */}
         </Layout>
     )
 }

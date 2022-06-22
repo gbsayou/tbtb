@@ -6,7 +6,7 @@ const menu = [
   { name:'酒店介绍', slug:'/intro'},
   { name:'人员与分组', slug:'/team' },
   { name:'行前注意事项', slug:'/notice'},
-  { name:'费用明细', slug:'/fee'}
+  // { name:'费用明细', slug:'/fee'}
 ]
 
 export default function Home() {
