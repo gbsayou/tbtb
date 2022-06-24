@@ -25,6 +25,17 @@ const teams = [
     }
 ]
 
+const driftingTeams = [
+  {
+    lead:'Rex Xu',
+    members:['Ben Ge', 'Kano Dai', 'Jovins Huang','Ken Liu','Sandy Xiong']
+  },
+  {
+    lead:'Joey Cao',
+    members:['Rachel', 'Mallory Cui', 'Lynn Lin', 'Chloe Chen', 'Yoyo Li']
+  }
+]
+
 const Team = () => {
     return (
         <Layout
@@ -36,6 +47,19 @@ const Team = () => {
             <li
             key={team.lead}>
             <h3 className={styles.lead}>组长： {team.lead}</h3>
+                <span>{team.members.join('，')} </span>
+            </li>
+
+        ))}
+            </ul>
+            
+          <h2>漂流</h2>
+            <p>以下是参加漂流的人员，漂流结束之后统一返回园区与大家会和。</p>
+            <ul>
+        {driftingTeams.map(team => (
+            <li
+            key={team.lead}>
+            <h3 className={styles.lead}>{team.lead}</h3>
                 <span>{team.members.join('，')} </span>
             </li>
 
